@@ -4,7 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import img1 from "../../assets/images/img1.jpg";
 import img2 from "../../assets/images/img2.jpg";
 import img3 from "../../assets/images/img3.jpg";
-import img from "../../assets/images/system.jpg";
+import img from "../../assets/images/img5.jpg";
 import { meta } from "../../content_option";
 import "./style.css";
 
@@ -49,18 +49,21 @@ export const Portfolio = () => {
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>
-                - **Identified Interdependencies**: Analyzed how frontend components in React and backend services in Spring Boot interacted to ensure seamless data flow and user interaction.
-
-                - **Optimized Feedback Loops**: Implemented efficient feedback mechanisms between frontend UI updates and backend data processing to enhance system responsiveness.
-
-                - **Anticipated Time Delays**: Addressed potential delays in data retrieval and processing by optimizing API calls and database queries, ensuring real-time data availability.
-
-                - **Integrated Scalability**: Designed scalable architecture updates based on patterns and trends in user interactions and data usage, supporting future growth and performance improvements.
-              </p>
+              <ul>
+                <li><strong>Identified Interdependencies</strong>: Analyzed how frontend components in React and backend services in Spring Boot interacted to ensure seamless data flow and user interaction.</li>
+                <li><strong>Optimized Feedback Loops</strong>: Implemented efficient feedback mechanisms between frontend UI updates and backend data processing to enhance system responsiveness.</li>
+                <li><strong>Anticipated Time Delays</strong>: Addressed potential delays in data retrieval and processing by optimizing API calls and database queries, ensuring real-time data availability.</li>
+                <li><strong>Integrated Scalability</strong>: Designed scalable architecture updates based on patterns and trends in user interactions and data usage, supporting future growth and performance improvements.</li>
+                <li><strong>Enhanced Security</strong>: Incorporated security best practices to identify and mitigate potential vulnerabilities, ensuring robust protection of user data and system integrity.</li>
+                <li><strong>Facilitated Continuous Improvement</strong>: Established continuous integration and continuous deployment (CI/CD) pipelines to enable frequent updates and improvements with minimal disruption.</li>
+                <li><strong>Improved Error Handling</strong>: Developed comprehensive error handling mechanisms to gracefully manage system failures and provide informative feedback to users and developers.</li>
+                <li><strong>Monitored System Performance</strong>: Implemented monitoring and logging tools to track system performance, identify bottlenecks, and proactively resolve issues.</li>
+                <li><strong>Promoted Collaboration</strong>: Fostered collaboration between frontend and backend teams through regular communication and shared goals to enhance system coherence and effectiveness.</li>
+              </ul>
             </div>
           </Col>
         </Row>
+
         <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">Problem Statement</h3>
@@ -100,38 +103,38 @@ export const Portfolio = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-  <Col lg="5">
-    <h3 className="color_sec py-4">Reflection</h3>
-  </Col>
-  <Col lg="7">
-    <ul>
-      <li>
-        <strong>Technical Proficiency:</strong> Deepened proficiency in utilizing Spring Boot for backend development and React for frontend implementation. Grasped advanced concepts such as RESTful API design, state management in React, and database integration using JPA.
-      </li>
-      <li>
-        <strong>System Design and Architecture:</strong> Learned the importance of systematic planning and considering interdependencies between components. Optimized system performance, ensured data integrity, and implemented robust error handling mechanisms.
-      </li>
-      <li>
-        <strong>Agile Methodologies:</strong> Embraced agile methodologies (Scrum/Kanban) for adapting quickly to changing requirements and delivering iterative improvements. Highlighted the significance of feedback cycles and continuous integration practices.
-      </li>
-      <li>
-        <strong>Collaboration and Communication:</strong> Enhanced communication skills through collaborative work. Emphasized clear documentation, effective task delegation, and maintaining alignment with project goals.
-      </li>
-      <li>
-        <strong>Problem-Solving and Adaptability:</strong> Sharpened problem-solving abilities by addressing challenges throughout the project lifecycle. Approached issues analytically, sought innovative solutions, and adapted strategies based on emerging needs.
-      </li>
-      <li>
-        <strong>User-Centric Approach:</strong> Prioritized UX and incorporated user feedback into design iterations. Guided feature prioritization and refinement to meet user expectations effectively.
-      </li>
-      <li>
-        <strong>Continuous Learning:</strong> Reinforced commitment to continuous learning in software development. Stayed updated with industry trends, explored new technologies, and refined skills continuously.
-      </li>
-    </ul>
-    <p>
-      Overall, this project provided transformative learning experiences, equipping me with practical skills, insights, and perspectives essential for future endeavors in software development and beyond.
-    </p>
-  </Col>
-</Row>
+          <Col lg="5">
+            <h3 className="color_sec py-4">Reflection</h3>
+          </Col>
+          <Col lg="7">
+            <ul>
+              <li>
+                <strong>Technical Proficiency:</strong> Deepened proficiency in utilizing Spring Boot for backend development and React for frontend implementation. Grasped advanced concepts such as RESTful API design, state management in React, and database integration using JPA.
+              </li>
+              <li>
+                <strong>System Design and Architecture:</strong> Learned the importance of systematic planning and considering interdependencies between components. Optimized system performance, ensured data integrity, and implemented robust error handling mechanisms.
+              </li>
+              <li>
+                <strong>Agile Methodologies:</strong> Embraced agile methodologies (Scrum/Kanban) for adapting quickly to changing requirements and delivering iterative improvements. Highlighted the significance of feedback cycles and continuous integration practices.
+              </li>
+              <li>
+                <strong>Collaboration and Communication:</strong> Enhanced communication skills through collaborative work. Emphasized clear documentation, effective task delegation, and maintaining alignment with project goals.
+              </li>
+              <li>
+                <strong>Problem-Solving and Adaptability:</strong> Sharpened problem-solving abilities by addressing challenges throughout the project lifecycle. Approached issues analytically, sought innovative solutions, and adapted strategies based on emerging needs.
+              </li>
+              <li>
+                <strong>User-Centric Approach:</strong> Prioritized UX and incorporated user feedback into design iterations. Guided feature prioritization and refinement to meet user expectations effectively.
+              </li>
+              <li>
+                <strong>Continuous Learning:</strong> Reinforced commitment to continuous learning in software development. Stayed updated with industry trends, explored new technologies, and refined skills continuously.
+              </li>
+            </ul>
+            <p>
+              Overall, this project provided transformative learning experiences, equipping me with practical skills, insights, and perspectives essential for future endeavors in software development and beyond.
+            </p>
+          </Col>
+        </Row>
 
         {/* <Row className=" sec_sp">
           <Col lg="5">

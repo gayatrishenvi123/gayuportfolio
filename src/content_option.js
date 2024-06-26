@@ -1,11 +1,11 @@
-const logotext = "KSHITIJ";
+const logotext = "GAYATRI";
 const meta = {
-    title: "Kshitij Singh",
-    description: "I’m Kshitij Singh, a full stack web developer currently studying at KLE Technological University.",
+    title: "Gayatri Shenvi",
+    description: "I'm Gayatri Shenvi, a full stack web developer currently studying at KLE Technological University.",
 };
 
 const introdata = {
-    title: "I’m Kshitij Singh",
+    title: "I’m Gayatri Shenvi",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
@@ -16,7 +16,7 @@ const introdata = {
 };
 const dataabout = {
     title: "about my self",
-    aboutme: "Hi, I’m Kshitij Singh, currently pursuing a Bachelor of Engineering at KLE Technological University. I have learned the MERN stack and have completed several projects in this area. I am also interested in competitive programming, which has honed my problem-solving abilities. Currently, I am expanding my skill set by learning Spring Boot and have completed a minor project titled Quality Education, aimed at addressing educational challenges through innovative solutions. My passion for coding drives me to continually improve and stay updated with the latest technological advancements."
+    aboutme: "Hi, I'm Gayatri Shenvi, currently pursuing a Bachelor of Engineering at KLE Technological University. I have learned the MERN stack and have completed several projects in this area. I am also interested in competitive programming, which has honed my problem-solving abilities. Currently, I am expanding my skill set by learning Spring Boot and have completed a minor project titled Quality Education, aimed at addressing educational challenges through innovative solutions. My passion for coding drives me to continually improve and stay updated with the latest technological advancements."
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -135,8 +135,8 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "kshitij2k04@gmail.com",
-    YOUR_FONE: "9555402098",
+    YOUR_EMAIL: "Gayatrishenvi1@gmail.com",
+    YOUR_FONE: "9242973786",
     description: "If you have any queries, feel free to contact me.",
     // create an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -146,10 +146,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/kshitij583415",
-    facebook: "https://facebook.com",
-    linkedin: "https://www.linkedin.com/in/kshitijsingh58/",
-    twitter: "https://x.com/Kshitij52_",
+    github: "https://github.com/gayatrishenvi123",
+    facebook: "https://www.facebook.com/gayatri.shenvi.3",
+    linkedin: "https://www.linkedin.com/public-profile/settings",
+    twitter: "https://x.com/GShenvi54910?t=ymgVCt1PrKACmHhkvbeXhQ&s=09",
 };
 export {
     contactConfig, dataabout,
